@@ -517,6 +517,57 @@ html{
     scroll-behavior: smooth;
 }
 
+@media (max-width: 600px){
+
+    section{
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .main-container .content,
+    .main-container .image{
+        width: 100%;
+        text-align: center;
+    }
+
+    .content h1{
+        font-size: 2rem;
+    }
+
+    .content .typewriter span{
+        font-size: 1.8rem;
+    }
+
+    .content p{
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .content button{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .social-links i{
+        width: 2.4rem;
+        height: 2.4rem;
+        font-size: 1.2rem;
+    }
+
+    .info-section h2{
+        font-size: 2rem;
+    }
+
+    .info-section p{
+        font-size: 0.95rem;
+    }
+}
+
+
 
 
 
