@@ -13,7 +13,7 @@ html{
 
 body{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
     background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
 }
@@ -148,7 +148,8 @@ nav{
 
 section{
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
+    padding-top: 40px;
 }
 
 .main-container{
@@ -599,43 +600,38 @@ nav {
     pointer-events: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px){
 
-  .main-container,
-  .home-container,
-  .hero,
-  .content {
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-  }
+    body{
+        min-height: auto;
+    }
 
-  .image-container,
-  .text-container {
-    width: 100%;
-  }
+    section{
+        min-height: auto;
+        padding-top: 60px;
+    }
 
-  .image-container img {
-    width: 75%;
-    margin: auto;
-  }
+    .main-container{
+        flex-direction: column;
+        height: auto;
+    }
 
-  .text-container h1,
-  .text-container h2 {
-    font-size: 2rem;
-  }
+    .main-container .image,
+    .main-container .content{
+        width: 100%;
+        text-align: center;
+    }
 
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
-  }
+    .main-container .image img{
+        width: 75%;
+        max-width: 350px;
+    }
 
-  .download-btn {
-    margin: 15px auto;
-  }
+    .content button{
+        width: 80%;
+        margin: 20px auto;
+    }
 }
-
 
 
 
