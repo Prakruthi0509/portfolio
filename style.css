@@ -635,11 +635,12 @@ nav {
     }
 }
 
-@media (max-width: 900px){
-    .main-container .image{
-        pointer-events: auto;
-    }
+.main-container .image {
+    pointer-events: auto;
 }
+
+
+
 
 
 
