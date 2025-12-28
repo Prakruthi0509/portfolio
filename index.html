@@ -115,8 +115,16 @@
         <footer>
             <p>© 2025 Prakruthi. All rights reserved.</p>
         </footer>
+        <script>
+            document.querySelectorAll('.dropdown a').forEach(link => {
+                link.addEventListener('click', () => {
+            document.querySelector('.dropdown').style.transform = 'translateY(-500px)';
+            });
+        });
+        </script>
 </body>
 </html>
+
 
 
 
