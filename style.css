@@ -475,6 +475,31 @@ footer{
     transform: translateY(-6px);
 }
 
+.certifications-box{
+    background: rgba(255,255,255,0.9);
+    border: 2px solid rgb(109,67,0);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(109,67,0,0.4);
+    transition: 0.3s ease;
+}
+
+.certifications-box h3{
+    color: rgb(109,67,0);
+    margin-bottom: 10px;
+}
+
+.certifications-box h4{
+    color: rgb(109,67,0);
+    margin-bottom: 10px;
+}
+
+.certifications-box:hover{
+    transform: translateY(-6px);
+}
+
 #contact p{
     font-size: 1.1rem;
     margin-top: 10px;
@@ -491,6 +516,7 @@ footer{
 html{
     scroll-behavior: smooth;
 }
+
 
 
 
