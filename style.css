@@ -567,6 +567,25 @@ html{
     }
 }
 
+nav {
+    z-index: 1000;
+    position: relative;
+}
+
+.dropdown {
+    z-index: 2000;
+}
+
+.main-container .image {
+    pointer-events: none;
+}
+
+.dropdown.show ~ .main-container .image {
+    pointer-events: auto;
+}
+
+
+
 
 
 
