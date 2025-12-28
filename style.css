@@ -228,9 +228,11 @@ section{
 .typewriter span::after{
     content: "";
     position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
+    width: 2px;
+    height: 1.2em;
     border-left: 3px solid black;
+    right: -5px;
+    top: 0;
     animation: cursor 0.6s linear;
 }
 
@@ -638,6 +640,7 @@ nav {
         pointer-events: auto;
     }
 }
+
 
 
 
