@@ -599,6 +599,44 @@ nav {
     pointer-events: auto;
 }
 
+@media (max-width: 900px) {
+
+  .main-container,
+  .home-container,
+  .hero,
+  .content {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .image-container,
+  .text-container {
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 75%;
+    margin: auto;
+  }
+
+  .text-container h1,
+  .text-container h2 {
+    font-size: 2rem;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+  }
+
+  .download-btn {
+    margin: 15px auto;
+  }
+}
+
+
 
 
 
