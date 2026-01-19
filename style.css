@@ -487,11 +487,19 @@ footer{
     transform: translateY(-6px);
 }
 
+.project-box h3{
+    color: rgb(109,67,0);
+    margin-bottom: 10px;
+}
+
+.project-box:hover{
+    transform: translateY(-6px);
+}
+
 .project-box .resume-btn{
     margin-top: 15px;
     display: inline-block;
 }
-
 
 .certifications-box{
     background: rgba(255,255,255,0.9);
@@ -638,6 +646,7 @@ nav {
 .main-container .image {
     pointer-events: auto;
 }
+
 
 
 
